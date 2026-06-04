@@ -9,7 +9,7 @@ EdgeAI-MCU Final Project Report
 ---
 ## 📌 課程作業整理
 ### 1. WebServer LED 控制
-🧩 功能說明:透過手機瀏覽器連線 AMB82-mini Web Server，遠端控制 LED_B 與 LED_G。
+🧩 功能說明 : 透過手機瀏覽器連線 AMB82-mini Web Server，遠端控制 LED_B 與 LED_G。
 
 ⚙️ 實作內容
 - WiFi Web Server 建立
@@ -19,8 +19,88 @@ EdgeAI-MCU Final Project Report
 
 📸 成果
 
+### 2. Vibe Coding 網頁應用
+🧩 功能說明 : 使用 AI（ChatGPT / Gemini）生成 HTML 網頁應用程式，並部署於 AMB82-mini。
+
+⚙️ 實作內容
+- AI 自動生成 HTML（Vibe Coding）
+- SD Card 網頁儲存
+- HTTP Web Server 架設
+- 手機瀏覽器操作
+
+📸 成果
+
+### 3. YOLOv7 智慧監控系統
+🧩 功能說明 : 使用 YOLOv7 進行即時物件偵測，可辨識多種交通與人物類別。
+
+🎯 可辨識類別
+- 人（Person）
+- 腳踏車（Bicycle）
+- 汽車（Car）
+- 機車（Motorcycle）
+- 公車（Bus）
+- 卡車（Truck）
+
+⚙️ 實作內容
+- YOLOv7 即時影像辨識
+- WebSocket 串流顯示
+- NTP 時間同步
+- 偵測影像儲存
+
+📸 成果
+
+### 4. 視覺 AI 助理（VibeCoding Visual Assistant）
+🧩 功能說明 : 結合 Camera 與 AI Vision（GPT-4o），可分析影像並生成自然語言描述。
+
+⚙️ 實作內容
+- 攝影機影像擷取
+- AI 視覺辨識
+- 自然語言回覆生成
+
+📸 成果
+
+### 5. IR 距離感測 + TFT 顯示
+🧩 功能說明 : 使用紅外線距離感測器測量距離，並即時顯示於 TFT LCD。
+
+⚙️ 實作內容
+- I2C 通訊
+- 距離測量
+- TFT 即時顯示
+
+📸 成果
+
+### 6. MPU6050 姿態與方向感測
+🧩 功能說明 : 使用 MPU6050 感測器取得裝置姿態與方向角（Heading Angle）。
+
+⚙️ 實作內容
+- IMU 感測器資料讀取
+- DMP 運算處理
+- 方向角輸出
+
+📸 成果
+
+### 7. DHT11 溫溼度 WebServer
+🧩 功能說明 : 透過 Web Server 顯示 DHT11 溫度與濕度資料。
+
+⚙️ 實作內容
+- 溫溼度感測
+- Web 網頁顯示
+- 即時數據更新
+
+📸 成果
+
+### 8.Vibe Coding AI 應用設計
+🧩 功能說明 : 使用 AI 協助設計 AMB82-mini 嵌入式應用系統。
+
+⚙️ 實作內容
+- ChatGPT / Gemini 程式生成
+- IoT 系統整合
+- Edge AI 應用設計
+  
+📸 成果
+
 ---
-## 🧠 AI 視覺與語音智慧助理（AMB82-mini）
+## 🤖 期末專題：Edge AI 智慧助理
 
 > 📡 Edge AI + IoT + 電腦視覺 + 語音辨識 + 感測器融合  
 > 🎯 使用 AMB82-mini 建立完整智慧邊緣運算系統
@@ -68,52 +148,6 @@ EdgeAI-MCU Final Project Report
 
 # 📸 成果
 
-## 🧠 AI 視覺與語音智慧助理（AMB82-mini）
 
-> 📡 Edge AI + IoT + 電腦視覺 + 語音辨識 + 感測器融合  
-> 🎯 使用 AMB82-mini 建立完整智慧邊緣運算系統  
-# 🌟 專題概述
-
-本專題整合 **AI + IoT + 嵌入式系統**，打造一個即時智慧助理系統。
-
-### 🔧 核心功能
-
-- 📷 Camera → AI 視覺辨識（GPT-4o）
-- 🎤 麥克風 → 語音辨識（Whisper）
-- 🧠 AI Server → 大語言模型處理
-- 🔊 喇叭 → 語音合成（TTS）
-- 🖥 TFT LCD → 即時顯示結果
-- 🔘 按鈕 → 使用者互動控制
-
----
-
-# 🧠 系統架構
-
-```text
-                ┌──────────────┐
-                │    按鈕      │
-                └─────┬────────┘
-                      ▼
-        ┌──────────────────────────┐
-        │      AMB82-mini         │
-        │                          │
-        │  📷 攝影機 → AI視覺      │
-        │  🎤 麥克風 → 語音輸入    │
-        │  📡 WiFi → AI伺服器     │
-        │  🖥 TFT → 顯示結果      │
-        │  🔊 喇叭 → 語音輸出      │
-        └──────────┬──────────────┘
-                   ▼
-        ┌──────────────────────────┐
-        │       AI 伺服器         │
-        │                          │
-        │  GPT-4o 視覺模型        │
-        │  Whisper 語音辨識       │
-        │  LLM 語意分析           │
-        │  TTS 語音合成           │
-        └──────────────────────────┘
-* Grok
-
-# 📸 成果
 
 
