@@ -6,9 +6,10 @@ EdgeAI-MCU Final Project Report
 - 📘 課程名稱：邊緣計算微控制器原理與應用設計  
 - 📟 開發板：AMB82-mini  
   
-📌 課程作業整理
-
-🔹 1. WebServer LED 控制
+---
+## 📌 課程作業整理
+---
+##🔹 1. WebServer LED 控制
 🧩 功能說明
 
 透過手機瀏覽器連線 AMB82-mini Web Server，遠端控制 LED_B 與 LED_G。
