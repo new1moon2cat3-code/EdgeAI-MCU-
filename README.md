@@ -18,7 +18,10 @@ EdgeAI-MCU Final Project Report
 - 手機網頁介面操作
 
 📸 成果
-![LED](images/hw1-1.png)  ![LED](images/hw1-2.jpg)
+<p align="center">
+  <img src="images/hw1-1.png" width="300">
+  <img src="images/hw1-2.jpg" width="300">
+</p>
 
 ### 2. Vibe Coding 網頁應用
 🧩 功能說明 : 使用 AI（ChatGPT / Gemini）生成 HTML 網頁應用程式，並部署於 AMB82-mini。
