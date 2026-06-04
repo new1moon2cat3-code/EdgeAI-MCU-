@@ -9,8 +9,8 @@ EdgeAI-MCU Final Project Report
 ---
 ## 📌 課程作業整理
 ### 1. WebServer LED 控制
-- 🧩 功能說明:透過手機瀏覽器連線 AMB82-mini Web Server，遠端控制 LED_B 與 LED_G。
-- ⚙️ 實作內容
+🧩 功能說明:透過手機瀏覽器連線 AMB82-mini Web Server，遠端控制 LED_B 與 LED_G。
+⚙️ 實作內容
 - WiFi Web Server 建立
 - HTTP GET 請求控制
 - GPIO 控制 LED
@@ -24,7 +24,7 @@ EdgeAI-MCU Final Project Report
 > 📡 Edge AI + IoT + 電腦視覺 + 語音辨識 + 感測器融合  
 > 🎯 使用 AMB82-mini 建立完整智慧邊緣運算系統
 
-  🌟 專題概述
+🌟 專題概述
 本專題整合 **AI + IoT + 嵌入式系統**，打造一個即時智慧助理系統。
 
 ### 🔧 核心功能
