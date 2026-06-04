@@ -18,9 +18,11 @@ EdgeAI-MCU Final Project Report
 - 手機網頁介面操作
 
 📸 成果
-<p >
-  <img src="images/hw1-1.png" width="30%" height="30%>
-  <img src="images/hw1-2.jpg" width="30%" height="30%>
+<h3>HW1 LED 控制</h3>
+
+<p align="center">
+  <img src="images/hw1-1.png" width="350">
+  <img src="images/hw1-2.jpg" width="350">
 </p>
 
 ### 2. Vibe Coding 網頁應用
@@ -33,7 +35,12 @@ EdgeAI-MCU Final Project Report
 - 手機瀏覽器操作
 
 📸 成果
-![Vibe Coding](images/hw2-1.png)  ![Vibe Coding](images/hw2-2.jpg)
+<h3>HW2</h3>
+
+<p align="center">
+  <img src="images/hw2-1.png" width="350">
+  <img src="images/hw2-2.jpg" width="350">
+</p>
 
 ### 3. YOLOv7 智慧監控系統
 🧩 功能說明 : 使用 YOLOv7 進行即時物件偵測，可辨識多種交通與人物類別。
@@ -53,6 +60,12 @@ EdgeAI-MCU Final Project Report
 - 偵測影像儲存
 
 📸 成果
+<h3>Object Detection</h3>
+
+<p align="center">
+  <img src="images/ObjDet_2026_3_26_16_36_39.jpg" width="350">
+  <img src="images/ObjDet_2026_3_26_16_36_52.jpg" width="350">
+</p>
 
 ### 4. 視覺 AI 助理（VibeCoding Visual Assistant）
 🧩 功能說明 : 結合 Camera 與 AI Vision（GPT-4o），可分析影像並生成自然語言描述。
@@ -63,6 +76,13 @@ EdgeAI-MCU Final Project Report
 - 自然語言回覆生成
 
 📸 成果
+<h3>HW4</h3>
+
+<p align="center">
+  <img src="images/hw4-1.png" width="300">
+  <img src="images/hw4-2.png" width="300">
+  <img src="images/hw4-3.jpg" width="300">
+</p>
 
 ### 5. IR 距離感測 + TFT 顯示
 🧩 功能說明 : 使用紅外線距離感測器測量距離，並即時顯示於 TFT LCD。
@@ -73,6 +93,12 @@ EdgeAI-MCU Final Project Report
 - TFT 即時顯示
 
 📸 成果
+<h3>HW5</h3>
+
+<p align="center">
+  <img src="images/hw5-1.jpg" width="350">
+  <img src="images/hw5-2.jpg" width="350">
+</p>
 
 ### 6. MPU6050 姿態與方向感測
 🧩 功能說明 : 使用 MPU6050 感測器取得裝置姿態與方向角（Heading Angle）。
@@ -83,6 +109,11 @@ EdgeAI-MCU Final Project Report
 - 方向角輸出
 
 📸 成果
+<h3>HW6</h3>
+
+<p align="center">
+  <img src="images/hw6.png" width="700">
+</p>
 
 ### 7. DHT11 溫溼度 WebServer
 🧩 功能說明 : 透過 Web Server 顯示 DHT11 溫度與濕度資料。
@@ -93,6 +124,11 @@ EdgeAI-MCU Final Project Report
 - 即時數據更新
 
 📸 成果
+<h3>HW7</h3>
+
+<p align="center">
+  <img src="images/hw7.png" width="700">
+</p>
 
 ### 8.Vibe Coding AI 應用設計
 🧩 功能說明 : 使用 AI 協助設計 AMB82-mini 嵌入式應用系統。
