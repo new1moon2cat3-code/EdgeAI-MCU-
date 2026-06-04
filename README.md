@@ -9,12 +9,12 @@ EdgeAI-MCU Final Project Report
 ---
 ## 📌 課程作業整理
 ### 1. WebServer LED 控制
-🧩 功能說明:透過手機瀏覽器連線 AMB82-mini Web Server，遠端控制 LED_B 與 LED_G。
-⚙️ 實作內容
-WiFi Web Server 建立
-HTTP GET 請求控制
-GPIO 控制 LED
-手機網頁介面操作
+- 🧩 功能說明:透過手機瀏覽器連線 AMB82-mini Web Server，遠端控制 LED_B 與 LED_G。
+- ⚙️ 實作內容
+> WiFi Web Server 建立
+> HTTP GET 請求控制
+> GPIO 控制 LED
+> 手機網頁介面操作
 
 📸 成果
 
