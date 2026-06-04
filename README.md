@@ -18,9 +18,9 @@ EdgeAI-MCU Final Project Report
 - 手機網頁介面操作
 
 📸 成果
-<p align="center">
-  <img src="images/hw1-1.png" width="300">
-  <img src="images/hw1-2.jpg" width="300">
+<p >
+  <img src="images/hw1-1.png" width="30%" height="30%>
+  <img src="images/hw1-2.jpg" width="30%" height="30%>
 </p>
 
 ### 2. Vibe Coding 網頁應用
