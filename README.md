@@ -18,8 +18,7 @@ EdgeAI-MCU Final Project Report
 - 手機網頁介面操作
 
 📸 成果
-![LED](images/hw1-1.png)
-![LED](images/hw1-2.jpg)
+![LED](images/hw1-1.png)  ![LED](images/hw1-2.jpg)
 
 ### 2. Vibe Coding 網頁應用
 🧩 功能說明 : 使用 AI（ChatGPT / Gemini）生成 HTML 網頁應用程式，並部署於 AMB82-mini。
@@ -31,8 +30,7 @@ EdgeAI-MCU Final Project Report
 - 手機瀏覽器操作
 
 📸 成果
-![Vibe Coding](images/hw2-1.png)
-![Vibe Coding](images/hw2-2.jpg)
+![Vibe Coding](images/hw2-1.png)  ![Vibe Coding](images/hw2-2.jpg)
 
 ### 3. YOLOv7 智慧監控系統
 🧩 功能說明 : 使用 YOLOv7 進行即時物件偵測，可辨識多種交通與人物類別。
