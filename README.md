@@ -1,4 +1,3 @@
-# Wrote README.md
 # 邊緣計算微控制器原理與應用設計 — 期末專題報告
 > **課程名稱**：邊緣計算微控制器原理與應用設計  
 > **開發板**：AMB82-mini (Realtek Ameba Pro2)  
