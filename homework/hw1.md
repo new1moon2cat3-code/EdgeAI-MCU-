@@ -7,7 +7,8 @@ submit smartphone screen that shows your phone connected to AMB82-mini running W
 ![成果2](../images/hw1-2.jpg)
 
 程式碼:
-> #include <WiFi.h>
+``` 
+#include <WiFi.h>
 
 
 char ssid[] = "POCO F5";
@@ -171,3 +172,4 @@ void printWifiStatus() {
     Serial.print("Open browser: http://");
     Serial.println(ip);
 }
+``` 
