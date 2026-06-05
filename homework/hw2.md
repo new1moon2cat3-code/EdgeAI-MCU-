@@ -9,6 +9,6 @@ Examples > AmebaFileSystem > READHTMLFile
 
 成果
 ![成果1](../images/hw2-1.png)
-![成果2](../images/hw2-1.png)
+![成果2](../images/hw2-2.png)
 
 網站:https://new1moon2cat3-code.github.io/tarot-test/ 
