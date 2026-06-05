@@ -116,6 +116,8 @@ if (currentLine.endsWith("GET /B_ON")) {
   <img src="images/hw2-2.jpg" width="350">
 </p>
 
+### 成果網站：https://new1moon2cat3-code.github.io/tarot-test/
+
 ### 技術重點
 | 技術 | 說明 |
 |------|------|
@@ -171,6 +173,15 @@ Camera.configVideoChannel(CHANNELJPEG, configJPEG); // JPEG 快照
 - 偵測結果以白色邊界框標示物體位置，上方以青色文字顯示類別與信心度
 - 時間戳記嵌入於影像中，記錄完整的年月日時分秒資訊
 - 影像品質良好，顯示解析度設定為 FHD
+
+### 成果照片
+<h3>Object Detection</h3>
+
+<p align="center">
+  <img src="images/ObjDet_2026_3_26_16_36_39.jpg" width="350">
+  <img src="images/ObjDet_2026_3_26_16_36_52.jpg" width="350">
+</p>
+
 ### 技術重點
 | 技術 | 說明 |
 |------|------|
@@ -244,6 +255,16 @@ function speak(text) {
 - 相機畫面以黃色邊框突顯
 - AI 分析結果以大號青色字體顯示
 - 功能包含：開啟相機、AI 辨識、語音輸入、朗讀結果
+
+### 成果照片
+<h3>HW4</h3>
+
+<p align="center">
+  <img src="images/hw4-1.png" width="300">
+  <img src="images/hw4-2.png" width="300">
+  <img src="images/hw4-3.jpg" width="300">
+</p>
+
 ### 技術重點
 | 技術 | 說明 |
 |------|------|
@@ -309,6 +330,15 @@ tft.println(" cm");
 - 距離數值以大字型黃色顯示，單位為公分
 - 畫面簡潔明瞭，每秒更新約 5 次
 - 手部靠近感測器時，顯示數值即時變化
+
+### 成果照片
+<h3>HW5</h3>
+
+<p align="center">
+  <img src="images/hw5-1.jpg" width="350">
+  <img src="images/hw5-2.jpg" width="350">
+</p>
+  
 ### 技術重點
 | 技術 | 說明 |
 |------|------|
@@ -373,6 +403,14 @@ Heading = (int)(ypr[0] * 180 / M_PI) + 180;
 - 穩定輸出 Heading 角度數值（範圍 0–359 度）
 - 角度變化平滑，顯示 DMP 的感測器融合有效濾除雜訊
 - LED 每次輸出時閃爍，提供視覺化運作指示
+
+### 成果照片
+<h3>HW6</h3>
+
+<p align="center">
+  <img src="images/hw6.png" width="700">
+</p>
+
 ### 技術重點
 | 技術 | 說明 |
 |------|------|
@@ -440,6 +478,14 @@ html += "<h2 style='color:blue'>Humidity: " + String(humidity) + " %</h2>";
 - 溫度以紅色大字顯示（例：26.50 °C）
 - 濕度以藍色大字顯示（例：58.00 %）
 - 網頁自動更新，無需手動重新整理
+
+### 成果照片
+<h3>HW7</h3>
+
+<p align="center">
+  <img src="images/hw7.png" width="700">
+</p>
+
 ### 技術重點
 | 技術 | 說明 |
 |------|------|
@@ -609,7 +655,4 @@ TFT 顯示 + 喇叭播放
 3. **聯邦式邊緣學習 (Federated Edge Learning)**：多個邊緣裝置協同訓練模型，保護資料隱私
 4. **產業應用落地**：智慧農業（溫室監控）、智慧工廠（設備預測維護）、智慧醫療（病患監測）
 ---
-> **本報告所有分析皆基於 homework markdown 檔案中的原始程式碼與成果截圖。**  
-> HW2 的實作細節保留在 GitHub Pages 網站：https://new1moon2cat3-code.github.io/tarot-test/
-
 最重要的是，本課程讓我深刻體會到 AI 並不只是存在於雲端的大型模型，而是能夠結合感測器、網路通訊與微控制器，實際部署於各種硬體設備之中，形成真正具備智慧化功能的系統。這樣的學習經驗不僅拓展了我的技術視野，也讓我對未來在嵌入式系統、物聯網及 Edge AI 等領域的進一步學習產生濃厚興趣。
